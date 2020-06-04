@@ -32,7 +32,7 @@ public class FindWorkRequestController {
   AuthenticatedUserService authenticatedUserService;
 
   @Autowired
-  Logger loggerService;
+   Logger loggerService;
 
   @GetMapping("workRequest/{country}/{city}/{workType}")
   public WorkRequestListDTO call(

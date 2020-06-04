@@ -37,6 +37,7 @@ public class WorkRequestConstants {
       "Work Request Id should be an integer";
   public static final String WORK_REQUEST_IS_NOT_POSTED =
       "Work request is not posted";
+  public static final String WORK_REQUEST_ERROR = "Work request error: {} {}";
 
   public static String CUSTOMER_ID_LENGTH_ERROR =
       "Customer ID should not be longer than 4 digit";
@@ -54,6 +55,9 @@ public class WorkRequestConstants {
 
   public static final String UNAUTHORIZE_REVOKE_WORK_REQUEST =
       "You can only revoke your own work request";
+
+  public static final String UNAUTHORIZE_GET_WORK_REQUESTS_FOR_USER =
+          "You can only fetch your own work request";
 
   public static final String OWNER_ID_REGEX = "[0-9]+";
   public static final int MIN_PRICE = 1;
